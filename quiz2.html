@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="quizdesign.css">
+	<link rel="icon" type="image/x-icon" href="img/icon.png">	
+	<title>Quiz 2 | Syntax Academy Program</title>
+</head>
+<body>
+	<!-- quiz-container -->
+    <div id="quiz-container">
+        <!-- question container -->
+        <div class="questions">
+            <h2 id="question"></h2>
+            <ol type="A">
+                <li class="option"><span id="option0" onclick="calcScore(this)"></span></li>
+                <li class="option"><span id="option1" onclick="calcScore(this)"></span></li>
+                <li class="option"><span id="option2" onclick="calcScore(this)"></span></li>
+                <li class="option"><span id="option3" onclick="calcScore(this)"></span></li>
+            </ol>
+            <h4 id="stat"></h4>
+        </div>
+
+        <div class="buttons">
+            <button type="button" class="prev">Previous</button>
+            <button type="button" class="next">Continue</button>
+            <a href="quiz2.html" class="score-btn">Quiz 2</a>
+        </div>
+    </div>
+
+    <!-- scoreboard section -->
+     <div id="scoreboard">
+        <img src="/logo.png" alt="">
+        <h2 id="score-title">Your Score</h2>
+        <h2 id="score"></h2>
+        <button type="button" id="check-answer" onclick="checkAnswer()">Check Answers</button>
+    </div>
+     <!-- answers section -->
+    <div id="answerBank">
+        <h2>Answers :</h2>
+        <ol type="1" id="answers">
+
+        </ol>
+        <a href="quiz3.html" class="score-btn1">Quiz 3</a>
+        <a href="Lesson3.html" class="lesson-btn2">Lesson 3</a>
+
+    </div>
+
+    <script type="text/javascript" src="script2.js"></script>
+
+</body>
+</html>

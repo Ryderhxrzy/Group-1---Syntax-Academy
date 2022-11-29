@@ -1,0 +1,220 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html {
+	scroll-behavior: smooth;
+}
+body {
+	background: url(file:///C:/Users/Bread%20Of%20Life/Desktop/Main%20Folder/Group%201%20-%20Syntax%20Academy/img/lesson1-background.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#title{
+    text-align: center;
+    padding: 0.8rem 0;
+    font-size: 3rem;
+    color: rgb(49,70,7);
+    background: rgba(105,224,90,0.55);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.questions{
+	text-align: center;
+    margin: 3rem auto;
+    font-size: 20px;
+    width: 800px;
+    float: left;
+    margin-left: 280px;
+    color: white;
+    padding: 2rem;
+    cursor: default;
+    border-radius: 5px;
+}
+#question{
+    margin-bottom: 1rem;
+}
+.option{
+    margin-bottom: 0.5rem;
+    font-size: 20px;
+    width: 700px;
+    border: 2px solid #00b4d8;
+	text-decoration: none;
+	transition: .5s;
+	background: #0077b6;
+	color: #fff;
+    border-radius: 1rem;
+}
+.option:hover{
+    color: #2e2e2e;
+	background: white;
+}
+ol{
+    position: relative;
+    padding: 0 1.5rem;
+    color: white;
+}
+span{
+    display: block;
+    padding: 0.1rem 0.7rem;
+    border-radius: 1rem;
+}
+#answer{
+    margin-top: 2.5rem;
+}
+#stat{
+    margin-top: 1.5rem;
+    color: white;
+}
+.buttons{
+    text-align: center;
+}
+button{
+	font-size: 20px;
+	padding: 10px;
+    border: 2px solid #00b4d8;
+	text-decoration: none;
+	transition: .5s;
+	background-color: #0077b6;
+	color: #fff;
+	margin-left: 270px;
+	margin-right: 280px;
+	margin-top: -10px;
+}
+button:hover{
+    color: #2e2e2e;
+	background: white;
+}
+
+.score-btn {
+	font-size: 20px;
+	padding: 10px;
+    border: 2px solid #00b4d8;
+	text-decoration: none;
+	transition: .5s;
+	background-color: #0077b6;
+	color: #fff;
+	float: left;
+	margin-top: -47px;
+	margin-left: 640px;
+}
+
+.score-btn:hover {
+	color: #2e2e2e;
+	background: white;
+}
+
+.score-btn1 {
+	font-size: 20px;
+	padding: 10px;
+    border: 2px solid #00b4d8;
+	text-decoration: none;
+	transition: .5s;
+	background-color: #0077b6;
+	color: #fff;
+	float: left;
+	margin-top: 50px;
+	margin-left: 110px;
+}
+
+.score-btn1:hover {
+	color: #2e2e2e;
+	background: white;
+}
+
+.score-btn3 {
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid #00b4d8;
+    text-decoration: none;
+    transition: .5s;
+    background-color: #0077b6;
+    color: #fff;
+    float: left;
+    margin-top: 50px;
+    margin-left: 90px;
+}
+
+.score-btn3:hover {
+    color: #2e2e2e;
+    background: white;
+}
+
+.lesson-btn2 {
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid #00b4d8;
+    text-decoration: none;
+    transition: .5s;
+    background-color: #0077b6;
+    color: #fff;
+    float: left;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.lesson-btn2:hover {
+    color: #2e2e2e;
+    background: white;
+}
+
+.lesson-btn4 {
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid #00b4d8;
+    text-decoration: none;
+    transition: .5s;
+    background-color: #0077b6;
+    color: #fff;
+    float: left;
+    margin-top: 20px;
+    margin-left: 125px;
+}
+
+.lesson-btn4:hover {
+    color: #2e2e2e;
+    background: white;
+}
+
+#scoreboard,#answerBank{
+    width: 20rem;
+    background: #0077b6
+    padding: 2rem;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 20px;
+    display: none;
+}
+
+#score-title{
+    margin: 1rem 0;
+    color: white;
+}
+#check-answer{
+    width: 300px;
+    margin-top: 10px;
+    margin: auto;
+}
+#score{
+    font-size: 2.5rem;
+    color: white;
+}
+#answerBank li{
+    text-align: center;
+    margin-bottom: 0.2rem;
+    font-size: larger;
+}
+#answers{
+    margin-top: 1rem;
+}
+
+
+
+
+
+
+
+

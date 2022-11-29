@@ -1,0 +1,249 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;	
+}
+
+body {  
+  background-repeat: no-repeat;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*top navbar styling*/
+.top-header {
+  height: auto;
+  min-width: 100%;
+}
+
+header {
+  min-width: 100vw;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  float: left;
+  padding-top: 5px;
+  color: black;
+  background-color: white;
+  width: 100%;
+  box-shadow: 0 0 15px 2px black;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 8px;
+  color: #2e2e2e;
+  cursor: pointer;
+  transition: .5s;
+}
+
+nav ul li a:hover {
+  color: #fff;
+  border-radius: 5px;
+  background: #0077b6;
+}
+
+.btn {
+  margin-left: 50px;
+  padding: 5px 20px;
+  border: 2px solid #00b4d8;
+  text-decoration: none;
+  transition: .5s;
+  background-color: #0077b6;
+  color: #fff;
+}
+
+.btn:hover {
+  color: #2e2e2e;
+  background: white;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00b4d8;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0077b6;
+}
+
+.totalcard {
+  float: left;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.totalcard .card {
+  margin: 20px;
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.totalcard .card{
+  box-shadow: inset 0 0 10px rgba(0,0,0,0.4),
+          0 0 10px rgba(0,0,0,0.3);
+}
+
+.totalcard1 {
+  margin-left: 170px;
+  float: left;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.totalcard1 .card {
+  margin: 20px;
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.totalcard1 .card{
+  box-shadow: inset 0 0 10px rgba(0,0,0,0.4),
+          0 0 10px rgba(0,0,0,0.3);
+}
+
+.card:nth-child(1){
+  border-top: 5px solid #0077b6;
+}
+
+.card:nth-child(2){
+  border-top: 5px solid #0077b6;
+}
+
+.card:nth-child(3){
+  border-top: 5px solid #0077b6;
+}
+
+.card:nth-child(4){
+  border-top: 5px solid #0077b6;
+}
+
+.card:nth-child(5){
+  border-top: 5px solid #0077b6;
+}
+
+.card:nth-child(6){
+  border-top: 5px solid #0077b6;
+}
+
+.card:nth-child(7){
+  border-top: 5px solid #0077b6;
+}
+
+.card:nth-child(1):hover {
+  box-shadow: inset 0px 0px 10px rgba(0,0,255,0.5),
+        1px 1px 30px rgba(0,0,255,0.5);
+}
+
+.card:nth-child(2):hover {
+  box-shadow: inset 0px 0px 10px rgba(0,0,255,0.5),
+        1px 1px 30px rgba(0,0,255,0.5);
+}
+
+.card:nth-child(3):hover {
+  box-shadow: inset 0px 0px 10px rgba(0,0,255,0.5),
+        1px 1px 30px rgba(0,0,255,0.5);
+}
+
+.card:nth-child(4):hover {
+  box-shadow: inset 0px 0px 10px rgba(0,0,255,0.5),
+        1px 1px 30px rgba(0,0,255,0.5);
+}
+
+.card:nth-child(5):hover {
+  box-shadow: inset 0px 0px 10px rgba(0,0,255,0.5),
+        1px 1px 30px rgba(0,0,255,0.5);
+}
+
+.card:nth-child(6):hover {
+  box-shadow: inset 0px 0px 10px rgba(0,0,255,0.5),
+        1px 1px 30px rgba(0,0,255,0.5);
+}
+
+.card:nth-child(7):hover {
+  box-shadow: inset 0px 0px 10px rgba(0,0,255,0.5),
+        1px 1px 30px rgba(0,0,255,0.5);
+}
+
+.totalcard .card img {
+  width: 100px;
+  height: 100px;
+  margin-top: 15px;
+  cursor: pointer;
+  border-radius: 50px;
+  transition-duration: .8s;
+}
+
+.totalcard .card img:hover {
+  transform: scale(3.5);
+  border-radius: 0;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.totalcard1 .card img {
+  width: 100px;
+  height: 100px;
+  margin-top: 15px;
+  cursor: pointer;
+  border-radius: 50px;
+  transition-duration: .8s;
+}
+
+.totalcard1 .card img:hover {
+  transform: scale(3.5);
+  border-radius: 0;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.card-title {
+  font-size: 17px;
+  color: #343A40;
+  padding: 20px;
+  font-weight: 700;
+}
+
+

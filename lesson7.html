@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/x-icon" href="img/icon.png">	
+	<title>Lesson 7 | Syntax Academy Program</title>
+	<link rel="stylesheet" type="text/css" href="lesson1-20Design.css">
+</head>
+<body>
+	<p>Lesson 7<br>While & Do While Loop</p>
+	<br><hr><br>
+
+	<div class="lesson-content">
+		<div class="lesson-card10"><h6>Java while loop is a control flow statement that allows code to be executed repeatedly based on a given Boolean condition. The while loop can be thought of as a repeating if statement. While loop in Java comes into use when we need to repeatedly execute a block of statements. The while loop is considered as a repeating if statement. If the number of iterations is not fixed, it is recommended to use the while loop.</h6></div>
+		<br>
+
+		<img src="img/while.jpg" class="center" title="While Loop Syntax">
+		<br>
+
+		<div class="lesson-card20"><h6>Syntax: <br>while (test_expression)<br>{<br>// statements<br>update_expression;<br>}</h6></div>
+		<br>		
+
+		<p>The various parts of the While loop are:</p>
+		<br>
+
+		<div class="lesson-card10"><h6>1. Test Expression: In this expression, we have to test the condition. If the condition evaluates to true then we will execute the body of the loop and go to update expression. Otherwise, we will exit from the while loop.<br>Example:<br>i <= 10</h6></div>
+		<br>
+
+		<div class="lesson-card17"><h6>2. Update Expression: After executing the loop body, this expression increments/decrements the loop variable by some value.<br>Example:<br>i++;</h6></div>
+
+		<p>How Does a While loop execute?</p>
+		<br>
+
+		<div class="lesson-card21"><h6>1. Control falls into the while loop<br>2. The flow jumps to condition<br>3. Condition is tested.<br>• If Condition yields true, the flow goes into the Body.<br>• If Condition yields false, the flow goes outside the loop<br>4. The statements inside the body of the loop get executed.<br>5. Updation takes place.<br>6. Control flows back to Step 2.<br>7. The while loop has ended and the flow has gone outside.</h6></div>
+		<br>
+
+		<p>Flowchart For While loop</p>
+		<br>
+
+		<img src="img/whileloop.png" class="center" title="While loop Flowchart">
+		<br>
+
+		<p>Example 1</p>
+		<br>
+
+		<img src="img/example22.png" class="center" title="Example for While loop">
+		<br>
+
+		<div class="output">
+			<div class="output-example10"><h6>Output<br><br>Hello World<br>Hello World<br>Hello World<br>Hello World<br>Hello World</h6></div>
+		</div>
+		<br>
+
+		<p>Dry-Running Example 1</p>
+		<br>
+
+		<div class="lesson-card19"><h6>1. Program starts.<br>2. i is initialized with value 1.<br>3. Condition is checked. 1 < 6 yields true.<br>3.a) "Hello World" gets printed 1st time.<br>3.b) Updation is done. Now i = 2.<br>4. Condition is checked. 2 < 6 yields true.<br>4.a) "Hello World" gets printed 2nd time.<br>4.b) Updation is done. Now i = 3.<br>5. Condition is checked. 3 < 6 yields true.<br>5.a) "Hello World" gets printed 3rd time<br>5.b) Updation is done. Now i = 4.<br>6. Condition is checked. 4 < 6 yields true.<br>
+		6.a) "Hello World" gets printed 4th time<br>6.b) Updation is done. Now i = 5.<br>7. Condition is checked. 5 < 6 yields true.<br>7.a) "Hello World" gets printed 5th time<br>7.b) Updation is done. Now i = 6.<br>8. Condition is checked. 6 < 6 yields false.<br>9. Flow goes outside the loop. Program terminates.</h6></div>
+		<br>
+
+		<p>Example 2</p>
+		<br>
+
+		<img src="img/example23.png" class="center" title="Example for While loop">
+		<br>
+
+		<div class="output">
+			<div class="output-example10"><h6>Output<br><br>Sumation: 55</h6></div>
+		</div>
+		<br>
+
+		<div class="lesson-card21"><h6>Java do-while loop is an Exit control loop. Therefore, unlike for or while loop, a do-while check for the condition after executing the statements of the loop body.<br>Syntax:<br>do
+		<br>{<br>// Loop Body<br>Update_expression<br>}<br>// Condition check<br>while (test_expression);</h6></div>
+		<br>
+
+		<div class="lesson-card17"><h6>For Example<br>You are implementing a game where you show some options to the user, press 1 to do this .., press 2 to do this .. etc and press ‘Q’ to quit the game. So here you want to show the game menu to the user at least once, so you write the code for the game menu inside the do-while loop.</h6></div>
+		<br>
+
+		<img src="img/dowhile.jpg" class="center" title="Do While Syntax">
+		<br>
+
+		<p>Example</p>
+		<br>
+
+		<img src="img/example24.png" class="center" title="Do While Loop Example">
+		<br>
+
+		<div class="output">
+			<div class="output-example10"><h6>Output<br><br>Print statement</h6></div>
+		</div>
+		<br>
+
+		<p>Output Explanation</p>
+		<br>
+
+		<div class="lesson-card17"><h6>In the above code, we figured out that the condition is checked later as the body inside do will get executed one time without fail as the condition is checked later onwards. Hence whenever we want to display the menu and later on proceed command on the terminal, we always use do-while loop.</h6></div>
+		<br>
+
+		<p>Components of do-while loop</p>
+		<br>
+
+		<div class="lesson-card17"><h6>A. Test Expression: In this expression, we have to test the condition. If the condition evaluates to true then we will execute the body of the loop and go to update expression. Otherwise, we will exit from the while loop. For example: <br> i <= 10</h6></div>
+		<br>
+
+		<div class="lesson-card17"><h6>B. Update Expression: After executing the loop body, this expression increments/decrements the loop variable by some value. For example:<br>i++;</h6></div>
+		<br>
+
+		<p>Execution of do-While loop</p>
+		<br>
+
+		<div class="lesson-card21"><h6>1. Control falls into the do-while loop.<br>2. The statements inside the body of the loop get executed.<br>3. Updation takes place.<br>4. The flow jumps to Condition<br>5. Condition is tested.<br>1. If Condition yields true, go to Step 6.<br>2. If Condition yields false, the flow goes outside the loop<br>6. The flow goes back to Step 2.</h6></div>
+		<br>
+
+		<p>Flowchart do-while loop</p>
+		<br>
+
+		<img src="img/flowchartdowhile.png" class="center" title="Do-While loop Flowchart">
+		<br>
+
+		<p>Example</p>
+		<br>
+
+		<img src="img/example25.png" class="center" title="Example of Do-While">
+		<br>
+
+		<div class="output">
+			<div class="output-example10"><h6>Output<br><br>Hello World<br>Hello World<br>Hello World<br>Hello World<br>Hello World</h6></div>
+		</div>
+
+		<p>Output Explanation</p>
+		<br>
+
+		<div class="lesson-card22"><h6>The program will execute in the following manner as follows:<br>1. Program starts.<br>2. i is initialized with value 1.<br>3. Execution enters the loop<br>• “Hello World” gets printed 1st time.<br>• Updation is done. Now i = 2.<br>4. Condition is checked. 2 < 6 yields true<br>5. Execution enters the loop.<br>• “Hello World” gets printed 2nd time.<br>• Updation is done. Now i = 3.<br>
+		6. Condition is checked. 3 < 6 yields true.<br>7. Execution enters the loop<br>• “Hello World” gets printed 3rd time<br>• Updation is done. Now i = 4.<br>8. Condition is checked. 4 < 6 yields true.<br>9. Execution enters the loop<br>• “Hello World” gets printed 4th time<br>• Updation is done. Now i = 5.<br>10. Condition is checked. 5 < 6 yields true.<br>11. Execution enters the loop<br>• “Hello World” gets printed 5th time<br>
+		• Updation is done. Now i = 6.<br>Condition is checked. 6 < 6 yields false.<br>13. The flow goes outside the loop.</h6></div>
+		<br>
+
+		<h4><a href="quiz7.html" class="score-btn">Quiz 7</a></h4>
+
+	</div>
+
+
+</body>
+</html>

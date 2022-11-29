@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/x-icon" href="img/icon.png">	
+	<title>Lesson 9 | Syntax Academy Program</title>
+	<link rel="stylesheet" type="text/css" href="lesson1-20Design.css">
+</head>
+<body>
+	<p>Lesson 9<br>For-Each Loop</p>
+	<br><hr><br>
+
+	<div class="lesson-content">
+		<div class="lesson-card20"><h6>For-each is another array traversing technique like for loop, while loop, do-while loop introduced in Java5.<br></h6></div>
+		<br>
+
+		<div class="lesson-card24"><h6>• It starts with the keyword for like a normal for-loop.<br>• Instead of declaring and initializing a loop counter variable, you declare a variable that is the same type as the base type of the array, followed by a colon, which is then followed by the array name.<br>• In the loop body, you can use the loop variable you created rather than using an indexed array element.<br>• It’s commonly used to iterate over an array or a Collections class (eg, ArrayList)</h6></div>
+		<br>
+
+		<div class="lesson-card20"><h6>Syntax:<br>for (type var : array)<br>{<br>statements using var;<br>}</h6>
+		</div>
+		<br>
+
+		<div class="lesson-card20"><h6>is equivalent to:<br>for (int i = 0; i < arr.length; i++)<br>{<br>type var = arr[i];<br>statements using var;<br>}</h6></div>
+		<br>
+
+		<p>Example</p>
+		<br>
+
+		<img src="img/example27.png" class="center" title="For-Each Loop Example">
+		<br>
+
+		<div class="output">
+			<div class="output-example11"><h6>Output<br><br>The highest score is 132</h6></div>
+		</div>
+		<br>
+
+		<p>Limitations of for-each loop</p>
+		<br>
+
+		<div class="lesson-card17"><h6>1. For-each loops are not appropriate when you want to modify the array:<br>for (int num : marks)<br>{<br>// only changes num, not the array element<br>num = num*2;<br>}</h6></div>
+		<br>
+
+		<div class="lesson-card25"><h6>2. For-each loops do not keep track of index. So we can not obtain array index using For-Each loop<br>for (int num : numbers)<br>{<br>if (num == target)<br>{<br>return ???; // do not know the index of num<br>}<br>}</h6></div>
+		<br>
+
+		<div class="lesson-card17"><h6>3. For-each only iterates forward over the array in single steps<br>// cannot be converted to a for-each loop<br>for (int i=numbers.length-1; i>0; i--)<br>{<br>System.out.println(numbers[i]);<br>}</h6></div>
+		<br>
+
+		<div class="lesson-card17"><h6>4. For-each cannot process two decision making statements at once<br>// cannot be easily converted to a for-each loop<br>for (int i=0; i< numbers.length; i++)<br>{<br>if (numbers[i] == arr[i])<br>{ } }</h6></div>
+		<br>
+
+		<h4><a href="quiz9.html" class="score-btn">Quiz 9</a></h4>
+	</div>
+
+
+
+</body>
+</html>

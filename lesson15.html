@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/x-icon" href="img/icon.png">	
+	<title>Lesson 15 | Syntax Academy Program</title>
+	<link rel="stylesheet" type="text/css" href="lesson1-20Design.css">
+</head>
+<body>
+	<p>Lesson 15<br>Object Methods</p>
+	<br><hr><br>
+
+	<div class="lesson-content">
+		<div class="lesson-card25"><h6>Object class is present in java.lang package. Every class in Java is directly or indirectly derived from the Object class. If a class does not extend any other class then it is a direct child class of Object and if extends another class then it is indirectly derived. Therefore the Object class methods are available to all Java classes. Hence Object class acts as a root of the inheritance hierarchy in any Java Program.</h6></div>
+		<br>
+
+		<img src="img/objectclass.png" class="center" title="Example of Object Class">
+		<br>
+
+		<p>Using Object Class Methods</p>
+		<br>
+
+		<div class="lesson-card33"><h6>The Object class provides multiple methods which are as follows:<br><br>• tostring() method<br><br>• hashCode() method<br><br>• equals(Object obj) method<br><br>• finalize() method
+		<br><br>• getClass() method<br><br>• clone() method<br><br>• wait(), notify() notifyAll() methods</h6></div>
+		<br>
+
+		<div class="lesson-card34"><h6>1. toString() method<br><br>The toString() provides a String representation of an object and is used to convert an object to a String. The default toString() method for class Object returns a string consisting of the name of the class of which the object is an instance, the at-sign character `@’, and the unsigned hexadecimal representation of the hash code of the object. In other words, it is defined as:<br><br>// Default behavior of toString() is to print class name, then<br>// @, then unsigned hexadecimal representation of the hash code<br>// of the object<br>public String toString()<br>{<br>
+		return getClass().getName() + "@" + Integer.toHexString(hashCode());<br>}</h6></div>
+		<br>
+
+		<div class="lesson-card34"><h6>2. hashCode() method<br><br>For every object, JVM generates a unique number which is a hashcode. It returns distinct integers for distinct objects. A common misconception about this method is that the hashCode() method returns the address of the object, which is not correct. It converts the internal address of the object to an integer by using an algorithm. The hashCode() method is native because in Java it is impossible to find the address of an object, so it uses native languages like C/C++ to find the address of the object.<br><br>Use of hashCode() method<br>It returns a hash value that is used to search objects in a collection. JVM(Java Virtual Machine) uses the hashcode method while saving objects into hashing-related data structures like HashSet, HashMap, Hashtable, etc. The main advantage of saving objects based on hash code is that searching becomes easy.</h6></div>
+		<br>
+
+		<img src="img/example34.png" class="center" title="Example of hash code">
+		<br>
+
+		<div class="output">
+			<div class="output-example11"><h6>Output<br><br>Student@64<br>Student@64</h6></div>
+		</div>
+		<br>
+
+		<div class="lesson-card35"><h6>3. equals(Object obj) method<br><br>It compares the given object to “this” object (the object on which the method is called). It gives a generic way to compare objects for equality. It is recommended to override the equals(Object obj) method to get our own equality condition on Objects. For more on the override of equals(Object obj) method refer – Overriding equals method in Java</h6></div>
+		<br>
+
+		<div class="lesson-card35"><h6>4. getClass() method<br><br>It returns the class object of “this” object and is used to get the actual runtime class of the object. It can also be used to get metadata of this class. The returned Class object is the object that is locked by static synchronized methods of the represented class. As it is final so we don’t override it.</h6></div>
+		<br>
+
+		<img src="img/example35.png" class="center" title="Example of get class">
+		<br>
+
+		<div class="output">
+			<div class="output-example11"><h6>Output<br><br>Class of Object obj is : java.lang.String</h6></div>
+		</div>
+		<br>
+
+		<div class="lesson-card35"><h6>5. finalize() method<br><br>This method is called just before an object is garbage collected. It is called the Garbage Collector on an object when the garbage collector determines that there are no more references to the object. We should override finalize() method to dispose of system resources, perform clean-up activities and minimize memory leaks. For example, before destroying the Servlet objects web container, always called finalize method to perform clean-up activities of the session.</h6>
+		</div>
+		<br>
+
+		<img src="img/example36.png" class="center" title="Example of finalize">
+		<br>
+
+		<div class="output">
+			<div class="output-example11"><h6>Output<br><br>366712642<br>finalize method called<br>end</h6></div>
+		</div>
+		<br>
+
+		<div class="lesson-card35"><h6>6. clone()method<br><br>It returns a new object that is exactly the same as this object. For clone() method refer Clone().<br>wait(): It tells the calling thread to give up the lock and go to sleep until some other thread enters the same monitor and calls notify().<br>notify(): It wakes up one single thread called wait() on the same object. It should be noted that calling notify() does not give up a lock on a resource.<br>notifyAll(): It wakes up all the threads called wait() on the same object.</h6>
+		</div>
+
+		<h4><a href="quiz15.html" class="score-btn">Quiz 15</a></h4>
+	</div>
+
+</body>
+</html>

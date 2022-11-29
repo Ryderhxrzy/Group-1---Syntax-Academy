@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/x-icon" href="img/icon.png">	
+	<title>Lesson 11 | Syntax Academy Program</title>
+	<link rel="stylesheet" type="text/css" href="lesson1-20Design.css">
+</head>
+<body>
+	<p>Lesson 11<br>Methods & Function</p>
+	<br><hr><br>
+
+	<div class="lesson-content">
+		<div class="lesson-card24"><h6>Method in Java or Java Method is a collection of statements that perform some specific task and return the result to the caller. A Java method can perform some specific task without returning anything. Methods in Java allow us to reuse the code without retyping the code. In Java, every method must be part of some class that is different from languages like C, C++, and Python.<br>1. A method is like function i.e. used to expose behavior of an object.<br>2. it is a set of codes that perform a particular task.</h6></div>
+		<br>
+
+		<div class="lesson-card24"><h6>Syntax: Declare a method<br>< access_modifier > < return_type > < method_name >( list_of_parameters)<br>{<br>//body<br>}<br>Advantage of Method<br><br>• Code Reusability<br>• Code Optimization<br><br>Note:Methods are time savers and help us to reuse the code without retyping the code. 
+		</h6></div>
+		<br>
+
+		<p>Method Declaration</p>
+		<br>
+
+		<div class="lesson-card26"><h6>In general, method declarations has six components:<br>1. Modifier: It defines the access type of the method i.e. from where it can be accessed in your application. In Java, there 4 types of access specifiers.<br>• public: It is accessible in all classes in your application.<br>• protected: It is accessible within the class in which it is defined and in its subclass/es<br>• private: It is accessible only within the class in which it is defined.<br>• default: It is declared/defined without using any modifier. It is accessible within the same class and package within which its class is defined.
+		<br><br>2. The return type: The data type of the value returned by the method or void if does not return a value.
+		<br><br>3. Method Name: the rules for field names apply to method names as well, but the convention is a little different.<br><br>4. Parameter list: Comma-separated list of the input parameters is defined, preceded with their data type, within the enclosed parenthesis. If there are no parameters, you must use empty parentheses ().<br><br>5. Exception list: The exceptions you expect by the method can throw, you can specify these exception(s).<br><br>6. Method body: it is enclosed between braces. The code you need to be executed to perform your intended operations.</h6></div>
+		<br>
+
+		<img src="img/methods.png" class="center" title="Methods Syntax">
+		<br>
+
+		<p>Types of Methods in Java</p>
+		<br>
+
+		<div class="lesson-card24"><h6>There are two types of methods in Java:<br><br>1. Predefined Method: In Java, predefined methods are the method that is already defined in the Java class libraries is known as predefined methods. It is also known as the standard library method or built-in method. We can directly use these methods just by calling them in the program at any point.<br>2. User-defined Method: The method written by the user or programmer is known as a user-defined method. These methods are modified according to the requirement.</h6></div>
+		<br>
+
+		<p>Method Signature</p>
+		<br>
+
+		<div class="lesson-card24"><h6>It consists of the method name and a parameter list (number of parameters, type of the parameters, and order of the parameters). The return type and exceptions are not considered as part of it.<br><br>Method Signature of the above function:<br><br> max(int x, int y) Number of parameters is 2, Type of parameter is int.</h6></div>
+		<br>
+
+		<p>How to Name a Method?</p>
+		<br>
+
+		<div class="lesson-card28"><h6>A method name is typically a single word that should be a verb in lowercase or multi-word, that begins with a verb in lowercase followed by an adjective, noun….. After the first word, the first letter of each word should be capitalized.<br>Rules to Name a Method<br>• While defining a method, remember that the method name must be a verb and start with a lowercase letter.<br>• If the method name has more than two words, the first name must be a verb followed by an adjective or noun.• In the multi-word method name, the first letter of each word must be in uppercase except the first word. For example, findSum, computeMax, setX and getX.</h6></div>
+		<br>
+
+		<p>Method Calling</p>
+		<br>
+
+		<div class="lesson-card24"><h6>The method needs to be called for using its functionality. There can be three situations when a method is called:<br><br>A method returns to the code that invoked it when:<br><br>• It completes all the statements in the method<br>• It reaches a return statement<br>•Throws an exception
+		</h6></div>
+
+		<p>Example</p>
+		<br>
+
+		<img src="img/example28.png" class="center" title="Method Example">
+		<br>
+
+		<div class="output">
+			<div class="output-example11"><h6>Output<br><br>Sum of two integer values: 3</h6></div>
+		</div>
+		<br>
+
+		<p>The control flow of the above program is as follows:</p>
+		<br>
+
+		<img src="img/methodscall.png" class="center" title="Example How to Call Method">
+		<br>
+
+		<p>Memory Allocation for Methods Calls</p>
+		<br>
+
+		<div class="lesson-card24"><h6>Methods calls are implemented through a stack. Whenever a method is called a stack frame is created within the stack area and after that, the arguments passed to and the local variables and value to be returned by this called method are stored in this stack frame and when execution of the called method is finished, the allocated stack frame would be deleted. There is a stack pointer register that tracks the top of the stack which is adjusted accordingly.</h6></div>
+		<br>
+
+		<h4><a href="quiz11.html" class="score-btn">Quiz 11</a></h4>
+	</div>
+
+</body>
+</html>

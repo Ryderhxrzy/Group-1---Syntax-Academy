@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/x-icon" href="img/icon.png">	
+	<title>Lesson 17 | Syntax Academy Program</title>
+	<link rel="stylesheet" type="text/css" href="lesson1-20Design.css">
+</head>
+<body>
+	<p>Lesson 17<br>Overloading COnstructors</p>
+	<br><hr><br>
+
+	<p>When do we need Constructor Overloading?</p>
+	<br>
+
+	<div class="lesson-content">
+		<div class="lesson-card36"><h6>Sometimes there is a need of initializing an object in different ways. This can be done using constructor overloading. For example, Thread class has 8 types of constructors. If we do not want to specify anything about a thread then we can simply use default constructor of Thread class, however if we need to specify thread name, then we may call the parameterized constructor of Thread class with a String args like this:</h6></div>
+		<br>
+
+		<div class="lesson-card17"><h6>Thread t= new Thread (" MyThread ");<br><br>Let us take an example to understand need of constructor overloading. Consider the following implementation of a class Box with only one constructor taking three arguments.</h6></div>
+		<br>
+
+		<div class="lesson-card37"><h6>// An example class to understand need of<br>// constructor overloading.<br>class Box<br>{<br>double width, height,depth;<br>// constructor used when all dimensions<br>// specified<br>Box(double w, double h, double d)<br>{<br>width = w;<br>height = h;<br>depth = d;<br>}<br>// compute and return volume<br>double volume()<br>{<br>return width * height * depth;<br>}<br>}</h6></div>
+		<br>
+
+		<div class="lesson-card37"><h6>Box ob = new Box();<br><br>Since Box() requires three arguments, it’s an error to call it without them. Suppose we simply wanted a box object without initial dimension, or want to initialize a cube by specifying only one value that would be used for all three dimensions. From the above implementation of Box class these options are not available to us.<br><br>These types of problems of different ways of initializing an object can be solved by constructor overloading. Below is the improved version of class Box with constructor overloading.</h6></div>
+		<br>
+
+		<p>Important points to be taken care while doing Constructor Overloading</p>
+		<br>
+
+		<div class="lesson-card36"><h6>Constructor calling must be the first statement of constructor in Java.<br>If we have defined any parameterized constructor, then compiler will not create default constructor. and vice versa if we don’t define any constructor, the compiler creates the default constructor(also known as no-arg constructor) by default during compilation<br>Recursive constructor calling is invalid in java.</h6></div>
+
+		<p>Constructors overloading vs Method overloading</p>
+		<br>
+
+		<div class="lesson-card36"><h6>Strictly speaking, constructor overloading is somewhat similar to method overloading. If we want to have different ways of initializing an object using different number of parameters, then we must do constructor overloading as we do method overloading when we want different definitions of a method based on different parameters.</h6></div>
+		<br>
+
+		<h4><a href="quiz17.html" class="score-btn">Quiz 17</a></h4>
+
+	</div>
+
+</body>
+</html>

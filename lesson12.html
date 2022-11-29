@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/x-icon" href="img/icon.png">	
+	<title>Lesson 12 | Syntax Academy Program</title>
+	<link rel="stylesheet" type="text/css" href="lesson1-20Design.css">
+</head>
+<body>
+	<p>Lesson 12<br>Packages & Modifiers</p>
+	<br><hr><br>
+
+	<div class="lesson-content">
+		<div class="lesson-card29"><h6>Package in Java is a mechanism to encapsulate a group of classes, sub packages and interfaces. Packages are used for:<br><br>• Preventing naming conflicts. For example there can be two classes with name Employee in two packages, college.staff.cse.Employee and college.staff.ee.Employee
+		<br><br>• Making searching/locating and usage of classes, interfaces, enumerations and annotations easier<br><br>• Providing controlled access: protected and default have package level access control. A protected member is accessible by classes in the same package and its subclasses. A default member (without any access specifier) is accessible by classes in the same package only.<br><br>• Packages can be considered as data encapsulation (or data-hiding).<br><br>All we need to do is put related classes into packages. After that, we can simply write an import class from existing packages and use it in our program. A package is a container of a group of related classes where some of the classes are accessible are exposed and others are kept for internal purpose.<br><br>We can reuse existing classes from the packages as many time as we need it in our program.</h6></div>
+		<br>
+
+		<p>How packges work?</p>
+		<br>
+
+		<div class="lesson-card29"><h6>Package names and directory structure are closely related. For example if a package name is college.staff.cse, then there are three directories, college, staff and cse such that cse is present in staff and staff is present college. Also, the directory college is accessible through CLASSPATH variable, i.e., path of parent directory of college is present in CLASSPATH. The idea is to make sure that classes are easy to locate.<br>Package naming conventions : Packages are named in reverse order of domain names, i.e., org.geeksforgeeks.practice. For example, in a college, the recommended convention is college.tech.cse, college.tech.ee, college.art.history, etc.<br>Adding a class to a Package : We can add more classes to a created package by using package name at the top of the program and saving it in the package directory. We need a new java file to define a public class, otherwise we can add the new class to an existing .java file and recompile it.<br>Subpackages: Packages that are inside another package are the subpackages. These are not imported by default, they have to imported explicitly. Also, members of a subpackage have no access privileges, i.e., they are considered as different package for protected and default access specifiers.<br>Example:<br>import java.util.*;<br>util is a subpackage created inside java package.</h6></div>
+		<br>
+
+		<p>Accessing classes inside a package</p>
+		<br>
+
+		<div class="lesson-card24"><h6>Consider following two statements:<br>// import the Vector class from util package.<br>import java.util.vector;<br><br>// import all the classes from util package<br>import java.util.*;<br><br>• First Statement is used to import Vector class from util package which is contained inside java.<br><br>• Second statement imports all the classes from util package.</h6></div>
+		<br>
+
+		<div class="lesson-card24"><h6>// All the classes and interfaces of this package<br>// will be accessible but not subpackages.<br>import package.*;<br>// Only mentioned class of this package will be accessible.<br>
+		import package.classname;<br>// Class name is generally used when two packages have the same<br>// class name. For example in below code both packages have<br>// date class so using a fully qualified name to avoid conflict<br>import java.util.Date;<br>import my.package.Date;</h6></div>
+		<br>
+
+		<p>Example</p>
+		<br>
+
+		<img src="img/example29.png" class="center" title="Import Demo">
+		<br>
+
+		<p>Types of Packages</p>
+		<br>
+
+		<img src="img/packages.jpg" class="center" title="Types of packages">
+		<br>
+
+		<div class="lesson-card17"><h6>User-defined packages are those packages that are designed or created by the developer to categorize classes and packages. They are much similar to the built-in that java offers. It can be imported into other classes and used the same as we use built-in packages.</h6></div>
+		<br>
+
+		<div class="lesson-card17"><h6>Packages in java are used to avoid naming conflict and to control the access of class, interface, sub-classes, etc. A package can be defined as a group of similar types of classes, sub-classes, interfaces or enumerations, etc.</h6></div>
+		<br>
+
+		<div class="lesson-card25"><h6>As the name suggests access modifiers in Java helps to restrict the scope of a class, constructor, variable, method, or data member. There are four types of access modifiers available in java:<br>1. Default – No keyword required<br>2. Private<br>3. Protected<br>4. Public<br></h6></div>
+		<br>
+
+		<img src="img/modifiers.png" class="center" title="Access Modifiers">
+		<br>
+
+		<div class="lesson-card29"><h6>Default: When no access modifier is specified for a class, method, or data member – It is said to be having the default access modifier by default.<br>The data members, class or methods which are not declared using any access modifiers i.e. having default access modifier are accessible only within the same package.<br>Private: The private access modifier is specified using the keyword private.<br>The methods or data members declared as private are accessible only within the class in which they are declared.<br>Any other class of the same package will not be able to access these members.<br>Top-level classes or interfaces can not be declared as private because<br>private means “only visible within the enclosing class”.<br>protected means “only visible within the enclosing class and any subclasses”<br>protected: The protected access modifier is specified using the keyword protected.<br>The methods or data members declared as protected are accessible within the same package or subclasses in different packages.
+		<br>public: The public access modifier is specified using the keyword public.<br>The public access modifier has the widest scope among all other access modifiers.<br>Classes, methods, or data members that are declared as public are accessible from everywhere in the program. There is no restriction on the scope of public data members.</h6></div>
+		<br>
+
+		<h4><a href="quiz12.html" class="score-btn">Quiz 12</a></h4>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/x-icon" href="img/icon.png">	
+	<title>Lesson 6 | Syntax Academy Program</title>
+	<link rel="stylesheet" type="text/css" href="lesson1-20Design.css">
+</head>
+<body>
+
+	<p>Lesson 6<br>Switch Statement</p>
+	<br><hr><br>
+
+	<div class="lesson-content">
+		<div class="lesson-card10"><h6>The switch statement is a multi-way branch statement. In simple words, the Java switch statement executes one statement from multiple conditions. It is like an if-else-if ladder statement. It provides an easy way to dispatch execution to different parts of code based on the value of the expression. Basically, the expression can be a byte, short, char, and int primitive data types. It basically tests the equality of variables against multiple values.</h6></div>
+		<br>
+
+		<p>Some Important Rules for Switch Statement</p>
+		<br>
+
+		<div class="lesson-card19"><h6>1. There can be any number of cases just imposing condition check but remember duplicate case/s values are not allowed.<br>2. The value for a case must be of the same data type as the variable in the switch.<br>3. The value for a case must be constant or literal. Variables are not allowed.<br>4. The break statement is used inside the switch to terminate a statement sequence.<br>5. The break statement is optional. If omitted, execution will continue on into the next case.<br>6. The default statement is optional and can appear anywhere inside the switch block. In case, if it is not at the end, then a break statement must be kept after the default statement to omit the execution of the next case statement.</h6></div>
+		<br>
+
+		<p>Flowchart Switch-Case Statement</p>
+		<br>
+
+		<img src="img/switchcase.jpg" class="center" title="Switch Case Flowchart" height="500px;">
+		<br>
+
+		<div class="lesson-card19"><h6>Syntax: Switch-case<br>// switch statement<br>switch(expression)<br>{<br>   // case statements<br>// values must be of same type of expression<br>case value1 :<br>// Statement<br>
+		break; // break is optional<br>case value2 :<br>// Statements<br>break; // break is optional<br>
+		// We can have any number of case statements<br>// below is default statement, used when none of the cases is true.<br>// No break is needed in the default case.<br>default :<br>// Statements<br>}</h6>
+		</div>
+		<br>
+
+		<p>Example</p>
+		<br>
+
+		<img src="img/example21.png" class="center" title="Example of Switch Statement">
+		<br>
+
+		<div class="output">
+			<div class="output-example8"><h6>Output<br><br>Friday</h6></div>
+		</div>
+
+		<p>Omitting the break Statement</p>
+		<br>
+
+		<div class="lesson-card10"><h6>A break statement is optional. If we omit the break, execution will continue on into the next case. It is sometimes desirable to have multiple cases without break statements between them. For instance, let us consider the updated version of the above program, it also displays whether a day is a weekday or a weekend day.</h6></div>
+		<br>
+
+		<h4><a href="quiz6.html" class="score-btn">Quiz 6</a></h4>
+	</div>
+
+</body>
+</html>

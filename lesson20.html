@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/x-icon" href="img/icon.png">	
+	<title>Lesson 20 | Syntax Academy Program</title>
+	<link rel="stylesheet" type="text/css" href="lesson1-20Design.css">
+</head>
+<body>
+	<p>Lesson 20<br>Abstract Class</p>
+	<br><hr><br>
+
+	<div class="lesson-content">
+		<div class="lesson-card36"><h6>An abstract class in Java is one that is declared with the abstract keyword. It may have both abstract and non-abstract methods(methods with bodies). An abstract is a java modifier applicable for classes and methods in java but not for Variables.<br>Illustration: Abstract classa<br>bstract class Shape<br>{<br>int color;<br>// An abstract function<br>abstract void draw();<br>}</h6></div>
+		<br>
+
+		<div class="lesson-card36"><h6>An abstract class is a class that is declared abstract —it may or may not include abstract methods. Abstract classes cannot be instantiated, but they can be subclassed. When an abstract class is subclassed, the subclass usually provides implementations for all of the abstract methods in its parent class.</h6></div>
+		<br>
+
+		<div class="lesson-card29"><h6>In java, the following some important observations about abstract classes are as follows:<br><br>1. An instance of an abstract class can not be created.<br><br>2. Constructors are allowed.<br><br>3. We can have an abstract class without any abstract method.<br><br>4. There can be a final method in abstract class but any abstract method in class(abstract class) can not be declared as final  or in simpler terms final method can not be abstract itself as it will yield an error: “Illegal combination of modifiers: abstract and final”<br><br>5. We can define static methods in an abstract class<br><br>6. We can use the abstract keyword for declaring top-level classes (Outer class) as well as inner classes as abstract
+		<br><br>7. If a class contains at least one abstract method then compulsory should declare a class as abstract <br><br>8. If the Child class is unable to provide implementation to all abstract methods of the Parent class then we should declare that Child class as abstract so that the next level Child class should provide implementation to the remaining abstract method</h6></div>
+		<br>
+
+		<div class="lesson-card36"><h6>Let us elaborate on these observations and do justify them with help of clean java programs as follows.<br><br>Observation 1: In Java, just like in C++ an instance of an abstract class cannot be created, we can have references to abstract class type though. It is as shown below via the clean java program.</h6></div>
+		<br>
+
+		<img src="img/example42.png" class="center" title="Example of Abstrac Class">
+		<br>
+
+		<div class="output">
+			<div class="output-example12"><h6>Output<br><br>Derived fun()<br>called</h6></div>
+		</div>
+		<br>
+
+		<h4><a href="quiz20.html" class="score-btn">Quiz 20</a></h4>
+	</div>
+
+
+</body>
+</html>
