@@ -6,6 +6,7 @@
 
 body {
 	background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.5)),url(img/lesson1-background.png);
+	background-repeat: no-repeat;
 	background-size: cover;
 	justify-content: center;
 }
