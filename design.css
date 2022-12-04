@@ -35,6 +35,8 @@ body {
 .top-header {
 	height: auto;
 	min-width: 100%;
+	margin: 0;
+  	padding: 0;
 }
 
 header {
