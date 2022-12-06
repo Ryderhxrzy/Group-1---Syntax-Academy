@@ -125,7 +125,7 @@ function displayQuestion(){
     for(var a=0;a<span.length;a++){
         span[a].style.background='none';
     }
-    question.innerHTML= 'Qestion.'+(i+1)+' '+questionBank[i].question;
+    question.innerHTML= 'Qestion '+(i+1)+'. '+questionBank[i].question;
     option0.innerHTML= questionBank[i].option[0];
     option1.innerHTML= questionBank[i].option[1];
     option2.innerHTML= questionBank[i].option[2];
@@ -160,19 +160,6 @@ function nextQuestion(){
     }
 }
 
-function backnextQuestion(){
-    if(i<questionBank.length-1)
-    {
-        i=i-1;
-        displayQuestion();
-    }
-    else{
-        points.innerHTML= score+ '/'+ questionBank.length;
-        quizContainer.style.display= 'none';
-        scoreboard.style.display= 'block'
-    }
-}
-
 //click events to continue button
 next.addEventListener('click',nextQuestion);
 
@@ -190,9 +177,8 @@ function checkAnswer(){
     }
 }
 
-
-
 displayQuestion();
+
 
 
 
