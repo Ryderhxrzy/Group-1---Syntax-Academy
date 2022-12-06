@@ -13,6 +13,70 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00b4d8;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0077b6;
+}
+
+p {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: -50px; 
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.service-swipe {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+
+.service-swipe a {
+    padding: 0;
+    margin: 40px 10px;
+}
+.service-swipe .s-card {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    height: 150px;
+    box-shadow: inset 0 0 20px rgba(255,255,255,0.05),
+    0 0 50px rgba(0,0,0,0.8);
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: .5s;
+}
+.service-swipe .s-card p {
+    color: #f2f2f2;
+    font-size: 1.2em;
+    font-family: 'Open Sans',sans-serif;
+    float: left;
+    text-align: center;
+}
+.service-swipe .s-card:hover {
+    box-shadow: 0 0 50px rgba(255,255,255,0.8);
+    transform: translateY(-10px);
+}
+
 #title{
     text-align: center;
     padding: 0.8rem 0;
