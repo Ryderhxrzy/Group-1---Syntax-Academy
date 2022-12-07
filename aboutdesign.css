@@ -211,6 +211,17 @@ nav ul li a:hover {
         1px 1px 30px rgba(0,0,255,0.5);
 }
 
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: #0077b6;
+}
+
 .totalcard .card img {
   width: 100px;
   height: 100px;
