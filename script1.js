@@ -177,6 +177,8 @@ function checkAnswer(){
     }
 }
 
+
+
 displayQuestion();
 
 
