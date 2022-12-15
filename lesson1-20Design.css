@@ -1715,7 +1715,91 @@ p {
 	transform: translateY(-10px);
 }
 
-@media only screen and (max-width: 700px) {
+.lesson-card39 h6 {
+	float: left;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.lesson-content .lesson-card39 {
+	margin-left: 415px;
+	display: flex;
+	padding: 5px;
+	align-items: center;
+	text-align: center;
+	width: 500px;
+	height: 1000px;
+	box-shadow: inset 0 0 20px rgba(255,255,255,0.05),
+	0 0 50px rgba(0,0,0,0.8);
+	border-radius: 5px;
+	cursor: pointer;
+	transition-duration: .5s;
+}
+
+.lesson-content .lesson-card39:hover {
+	box-shadow: 0 0 50px rgba(255,255,255,0.8);
+	transform: translateY(-10px);
+}
+
+.lesson-card40 h6 {
+	float: left;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.lesson-content .lesson-card40 {
+	margin-left: 415px;
+	display: flex;
+	padding: 5px;
+	align-items: center;
+	text-align: center;
+	width: 500px;
+	height: 1000px;
+	box-shadow: inset 0 0 20px rgba(255,255,255,0.05),
+	0 0 50px rgba(0,0,0,0.8);
+	border-radius: 5px;
+	cursor: pointer;
+	transition-duration: .5s;
+}
+
+.lesson-content .lesson-card40:hover {
+	box-shadow: 0 0 50px rgba(255,255,255,0.8);
+	transform: translateY(-10px);
+}
+
+.lesson-card41 h6 {
+	float: left;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.lesson-content .lesson-card41 {
+	margin-left: 415px;
+	display: flex;
+	padding: 5px;
+	align-items: center;
+	text-align: center;
+	width: 500px;
+	height: 1000px;
+	box-shadow: inset 0 0 20px rgba(255,255,255,0.05),
+	0 0 50px rgba(0,0,0,0.8);
+	border-radius: 5px;
+	cursor: pointer;
+	transition-duration: .5s;
+}
+
+.lesson-content .lesson-card41:hover {
+	box-shadow: 0 0 50px rgba(255,255,255,0.8);
+	transform: translateY(-10px);
+}
+
+@media only screen and (max-width: 600px) {
 	.output .output-example {
 		margin-left: 50px;
 		width: 320px;
@@ -1757,6 +1841,246 @@ p {
 		margin-left: 30px;
 		width: 350px;
 		height: 240px;
+	}
+
+	.lesson-content .lesson-card2 {
+		margin-left: 80px;
+		width: 250px;
+		height: 210px;
+	}
+
+	.lesson-content .lesson-card3 {
+		margin-left: 30px;
+		width: 350px;
+		height: 190px;
+	}
+
+	.lesson-content .lesson-card4 {
+		margin-left: 30px;
+		width: 350px;
+		height: 240px;
+	}
+
+	.lesson-content .lesson-card5 {
+		margin-left: 30px;
+		width: 350px;
+		height: 120px;
+	}
+
+	.lesson-content .lesson-card6 {
+		margin-left: 30px;
+		width: 350px;
+		height: 330px;
+	}
+
+	.lesson-content .lesson-card7 {
+		margin-left: 30px;
+		width: 350px;
+		height: 100px;
+	}
+
+	.lesson-content .lesson-card8 {
+		margin-left: 30px;
+		width: 350px;
+		height: 120px;
+	}
+
+	.lesson-content .lesson-card9 {
+		margin-left: 30px;
+		width: 360px;
+		height: 280px;
+	}
+
+	.lesson-content .lesson-card10 {
+		margin-left: 25px;
+		width: 360px;
+		height: 420px;
+	}
+
+	.lesson-content .lesson-card11 {
+		margin-left: 30px;
+		width: 350px;
+		height: 110px;
+	}
+
+	.lesson-content .lesson-card12 {
+		margin-left: 30px;
+		width: 350px;
+		height: 140px;
+	}
+
+	.lesson-content .lesson-card13 {
+		margin-left: 30px;
+		width: 350px;
+		height: 410px;
+	}
+
+	.lesson-content .lesson-card14 {
+		margin-left: 30px;
+		width: 350px;
+		height: 440px;
+	}
+
+	.lesson-content .lesson-card15 {
+		margin-left: 30px;
+		width: 350px;
+		height: 270px;
+	}
+
+	.lesson-content .lesson-card16 {
+		margin-left: 15px;
+		width: 380px;
+		height: 190px;
+	}
+
+	.lesson-content .lesson-card17 {
+		margin-left: 15px;
+		width: 380px;
+		height: 240px;
+	}
+
+	.lesson-content .lesson-card18 {
+		margin-left: 80px;
+		width: 250px;
+		height: 220px;
+	}
+
+	.lesson-content .lesson-card19 {
+		margin-left: 25px;
+		width: 360px;
+		height: 690px;
+	}
+
+	.lesson-content .lesson-card20 {
+		margin-left: 95px;
+		width: 220px;
+		height: 200px;
+	}
+
+	.lesson-content .lesson-card21 {
+		margin-left: 20px;
+		width: 370px;
+		height: 600px;
+	}
+
+	.lesson-content .lesson-card23 {
+		margin-left: 20px;
+		width: 370px;
+		height: 690px;
+	}
+
+	.lesson-content .lesson-card24 {
+		margin-left: 20px;
+		width: 370px;
+		height: 540px;
+	}
+
+	.lesson-content .lesson-card25 {
+		margin-left: 20px;
+		width: 370px;
+		height: 380px;
+	}
+
+	.lesson-content .lesson-card28 {
+		margin-left: 30px;
+		width: 350px;
+		height: 650px;
+	}
+
+	.lesson-content .lesson-card29 {
+		margin-left: 30px;
+		width: 360px;
+		height: 1250px;
+	}
+
+	.lesson-content .lesson-card39 {
+		margin-left: 25px;
+		width: 360px;
+		height: 1340px;
+	}
+
+	.lesson-content .lesson-card40 {
+		margin-left: 25px;
+		width: 360px;
+		height: 820px;
+	}
+
+	.lesson-content .lesson-card41 {
+		margin-left: 30px;
+		width: 350px;
+		height: 900px;
+	}
+
+	.output .output-example1 {
+		margin-left: 120px;
+		width: 170px;
+		height: 120px;
+	}
+
+	.output .output-example2 {
+		margin-left: 110px;
+		width: 200px;
+		height: 120px;
+	}
+
+	.output .output-example3 {
+		margin-left: 145px;
+		width: 130px;
+		height: 130px;
+	}
+
+	.output .output-example4 {
+		margin-left: 160px;
+		width: 80px;
+		height: 180px;
+	}
+
+	.output .output-example5 {
+		margin-left: 165px;
+		width: 80px;
+		height: 100px;
+	}
+
+	.output .output-example6 {
+		margin-left: 145px;
+		width: 140px;
+		height: 140px;
+	}
+
+	.output .output-example7 {
+		margin-left: 145px;
+		width: 130px;
+		height: 140px;
+	}
+
+	.output .output-example8 {
+		margin-left: 165px;
+		width: 80px;
+		height: 100px;
+	}
+
+	.output .output-example9 {
+		margin-left: 125px;
+		width: 170px;
+		height: 140px;
+	}
+
+	.output .output-example9 {
+		margin-left: 125px;
+		width: 170px;
+		height: 140px;
+	}
+
+	.output .output-example10 {
+		margin-left: 140px;
+		width: 125px;
+		height: 200px;
+	}
+
+	.output .output-example11 {
+		margin-left: 140px;
+		width: 125px;
+		height: 150px;
 	}
 
 	.score-btn {
