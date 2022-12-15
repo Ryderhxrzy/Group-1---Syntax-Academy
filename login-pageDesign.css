@@ -44,7 +44,7 @@ body {
 {
 	padding: 10px 30px;
 	cursor: pointer;
-	/*background: transparent;*/
+	background: transparent;
 	position: relative;
 	border: 0;
 	outline: none;
