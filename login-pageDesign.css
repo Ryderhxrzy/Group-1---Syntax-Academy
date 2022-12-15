@@ -5,7 +5,7 @@
 }
 
 body {
-	background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.5)),url(img/new.jpg);
+	background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.5)),url(img/board.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	justify-content: center;
