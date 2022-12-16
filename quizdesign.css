@@ -9,7 +9,6 @@ html {
 body {
 	background: url(img/lesson1-background.png);
 	background-size: cover;
-	background-repeat: no-repeat;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -275,6 +274,50 @@ button:hover{
     margin-top: 1rem;
 }
 
+@media only screen and (max-width: 600px) {
+    body {
+        background: url(img/lesson1-background.png);
+        background-repeat: no-repeat;
+        background-size: 2000px;
+    }
+
+    .questions{
+        font-size: 20px;
+        width: 400px;
+        float: left;
+        margin-left: 20px;
+    }
+
+    #question{
+        margin-bottom: 50px;
+    }
+
+    .option{
+        margin-bottom: 10px;
+        font-size: 15px;
+        width: 300px;
+        margin-left: -10px;
+    }
+
+    button{
+        font-size: 15px;
+        margin-left: 173px;
+        margin-right: 280px;
+        margin-top: -10px;
+    }
+
+    .prev {
+        margin-bottom: 50px;
+    }
+
+    .score-btn {
+        font-size: 15px;
+        margin-top: 40px;
+        margin-left: 180px;
+    }
+    
+
+}
 
 
 
