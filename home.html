@@ -24,12 +24,17 @@
 	<!--top nav bar-->
 	<div id="home" class="top-header">
 		<header>
-			<nav>
+			<nav class="navbar">
 				<div class="logo">
 					<a href="#"><img src="img/logo_grey.png" class="logo-img" height="60" width="270"></a>
-					<hr>
+					<a href="#" class="toggle-button">
+						<span class="bar"></span>
+						<span class="bar"></span>
+						<span class="bar"></span>
+					</a>
 				</div>
-				<ul>
+				<div class="navbar-links">
+				<ul class="active">
 					<li><a href="home.html">Home</a></li>
 					<li><a href="about.html">About</a></li>
 					<li><a href="lesson.html">Lesson</a></li>
@@ -38,6 +43,7 @@
 					<li><a href="#contact">Contact</a></li>
 					<li><a href="index.html" class="btn" id="login">Log in</a></li>
 				</ul>
+				</div>
 			</nav>
 		</header>
 	</div>
@@ -66,5 +72,14 @@
 				<p class="rights-text">Copyright © 2022 Created By Group 1 All Rights Reserved.</p>
 			</div>
 		</footer>
+
+		<script>
+			const toggleButton = document.getElementsByClassName('toggle-button')[0]
+			const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+			toggleButton.addEventListener('click', () => {
+		    navbarLinks.classList.toggle('active')
+			})
+		</script>
 </body>
 </html>
