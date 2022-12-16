@@ -1801,105 +1801,105 @@ p {
 
 @media only screen and (max-width: 600px) {
 	.output .output-example {
-		margin-left: 50px;
+		margin-left: 19px;
 		width: 320px;
 		height: 100px;
 	}
 
 	.explanation .explanation-card {
-		margin-left: 30px;
-		width: 350px;
+		margin-left: 15px;
+		width: 330px;
 		height: 450px;
 	}
 
 	.explanation .explanation-card2 {
-		margin-left: 30px;
-		width: 350px;
-		height: 500px;
+		margin-left: 15px;
+		width: 330px;
+		height: 540px;
 
 	}
 
 	.explanation .explanation-card3 {
-		margin-left: 30px;
-		width: 350px;
+		margin-left: 15px;
+		width: 330px;
 		height: 480px;
 	}
 
 	.explanation .explanation-card4 {
-		margin-left: 30px;
-		width: 350px;
+		margin-left: 15px;
+		width: 330px;
 		height: 560px;
 	}
 
 	.lesson-content .lesson-card {
-		margin-left: 30px;
-		width: 350px;
-		height: 560px;
+		margin-left: 15px;
+		width: 330px;
+		height: 580px;
 	}
 
 	.lesson-content .lesson-card1 {
-		margin-left: 30px;
-		width: 350px;
+		margin-left: 15px;
+		width: 330px;
 		height: 240px;
 	}
 
 	.lesson-content .lesson-card2 {
-		margin-left: 80px;
+		margin-left: 55px;
 		width: 250px;
 		height: 210px;
 	}
 
 	.lesson-content .lesson-card3 {
-		margin-left: 30px;
-		width: 350px;
+		margin-left: 15px;
+		width: 330px;
 		height: 190px;
 	}
 
 	.lesson-content .lesson-card4 {
-		margin-left: 30px;
-		width: 350px;
+		margin-left: 15px;
+		width: 330px;
 		height: 240px;
 	}
 
 	.lesson-content .lesson-card5 {
-		margin-left: 30px;
-		width: 350px;
-		height: 120px;
+		margin-left: 15px;
+		width: 330px;
+		height: 140px;
 	}
 
 	.lesson-content .lesson-card6 {
-		margin-left: 30px;
-		width: 350px;
-		height: 330px;
+		margin-left: 15px;
+		width: 330px;
+		height: 310px;
 	}
 
 	.lesson-content .lesson-card7 {
-		margin-left: 30px;
-		width: 350px;
+		margin-left: 15px;
+		width: 330px;
 		height: 100px;
 	}
 
 	.lesson-content .lesson-card8 {
-		margin-left: 30px;
-		width: 350px;
+		margin-left: 15px;
+		width: 330px;
 		height: 120px;
 	}
 
 	.lesson-content .lesson-card9 {
-		margin-left: 30px;
-		width: 360px;
-		height: 280px;
+		margin-left: 15px;
+		width: 330px;
+		height: 300px;
 	}
 
 	.lesson-content .lesson-card10 {
-		margin-left: 25px;
-		width: 360px;
-		height: 420px;
+		margin-left: 15px;
+		width: 330px;
+		height: 440px;
 	}
 
 	.lesson-content .lesson-card11 {
-		margin-left: 30px;
-		width: 350px;
+		margin-left: 15px;
+		width: 330px;
 		height: 110px;
 	}
 
@@ -2012,13 +2012,13 @@ p {
 	}
 
 	.output .output-example1 {
-		margin-left: 120px;
+		margin-left: 95px;
 		width: 170px;
 		height: 120px;
 	}
 
 	.output .output-example2 {
-		margin-left: 110px;
+		margin-left: 90px;
 		width: 200px;
 		height: 120px;
 	}
@@ -2085,12 +2085,12 @@ p {
 
 	.score-btn {
 		margin-top: 20px;
-		margin-left: 160px;
+		margin-left: 140px;
 		margin-bottom: 10px;
 	}
 
 	.center {
-		width: 400px;
+		width: 350px;
 		height: 200px;
 	}
 
