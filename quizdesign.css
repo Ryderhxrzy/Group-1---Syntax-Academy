@@ -269,6 +269,7 @@ button:hover{
     text-align: center;
     margin-bottom: 0.2rem;
     font-size: larger;
+    color: white;
 }
 #answers{
     margin-top: 1rem;
@@ -277,15 +278,13 @@ button:hover{
 @media only screen and (max-width: 600px) {
     body {
         background: url(img/lesson1-background.png);
-        background-repeat: no-repeat;
         background-size: 2000px;
     }
 
     .questions{
         font-size: 20px;
-        width: 400px;
-        float: left;
-        margin-left: 20px;
+        width: 340px;
+        margin-left: 10px;
     }
 
     #question{
@@ -295,25 +294,47 @@ button:hover{
     .option{
         margin-bottom: 10px;
         font-size: 15px;
-        width: 300px;
-        margin-left: -10px;
+        width: 250px;
     }
 
     button{
         font-size: 15px;
-        margin-left: 173px;
-        margin-right: 280px;
-        margin-top: -10px;
+        margin: auto;
     }
 
     .prev {
-        margin-bottom: 50px;
+        margin-left: 18px;
     }
 
     .score-btn {
         font-size: 15px;
-        margin-top: 40px;
-        margin-left: 180px;
+        margin-top: 20px;
+        margin-left: 155px;
+        margin-bottom: 10px;
+    }
+
+    #score-title{
+        color: white;
+        margin-left: 20px;
+    }
+    #check-answer{
+        width: 200px;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    #score{
+        font-size: 2.5rem;
+        color: white;
+        margin-left: 20px;
+    }
+    #answerBank li{
+        text-align: center;
+        margin-bottom: 0.2rem;
+        font-size: 20px;
+    }
+
+    h2 {
+        color: white;
     }
     
 
