@@ -9,16 +9,6 @@ body {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; 
-}
-
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
 /*top navbar styling*/
 .top-header {
   height: auto;
@@ -103,6 +93,26 @@ nav ul li a:hover {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #0077b6;
+}
+
+.toggle-button {
+  position: absolute;
+  top: .75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+  margin-top: 5px;
+  margin-right: 120px;
+}
+
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: black;
+  border-radius: 10px;
 }
 
 .totalcard {
@@ -258,5 +268,87 @@ a {
   padding: 20px;
   font-weight: 700;
 }
+
+@media only screen and (max-width: 600px) {
+  
+  body {
+    background-image: none;
+
+  }
+
+  .active {
+    /*display: none;*/
+  }
+
+  .navbar {
+    flex-direction: column;
+        align-items: flex-start;
+        width: 104%;
+  }
+
+  .navbar-links {
+    display: none;
+        width: 100%;
+  }
+
+  .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+
+    .btn {
+      display: none;
+    }
+
+  .toggle-button {
+        display: flex;
+        margin-right: 10px;
+    }
+
+  h1 {
+    margin-right: 150px;
+    font-size: 30px;
+    font-weight: 10px;
+    margin-top: 80px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .about-section p {
+    margin-left: 10px;
+  }
+
+  .logo-img {
+    height: 50px;
+    width: 200px;
+    margin-left: 30px;
+  }
+
+  .totalcard {
+    margin-right: 100px;
+    
+  }
+
+  .totalcard .card {
+    margin-left: 30px;
+    height: 350px;
+  }
+}
+
+
 
 
