@@ -127,3 +127,13 @@ function checkAnswer(){
 }
 
 displayQuestion();
+
+function previousQuestion() {
+  if (i > 0) {
+    i = i - 1;
+    displayQuestion();
+  }
+}
+
+    var previous = document.querySelector('.previous');
+    previous.addEventListener('click', previousQuestion);
