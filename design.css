@@ -54,6 +54,7 @@ header nav {
 	background-color: white;
 	width: 100%;
 	box-shadow: 0 0 15px 2px black;
+	position: fixed;
 }
 
 .logo {
@@ -112,7 +113,7 @@ h1 {
 	font-size: 55px;
 }
 
-p {
+.box p {
 	float: left;
 	margin-top: 50px;
 	padding-right: 300px;
@@ -121,6 +122,17 @@ p {
 	padding-bottom: 10px;
 	font-size: 20px;
 	color: black;
+}
+
+.footer-container p {
+	float: left;
+	margin-top: 50px;
+	padding-right: 300px;
+	padding-left: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 20px;
+	color: white;
 }
 
 .toggle-button {
